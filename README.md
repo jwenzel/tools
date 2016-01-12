@@ -16,5 +16,5 @@ some helpful tools/scripts for every day situations and also some math tools
   Standard square-and-multiply computation.
 
 **springer_extractor.py**
-  Accepts a SearchResult.csv file from Springer and download the corresponding
+  Accepts a SearchResult.csv file from Springer and downloads the corresponding
   books (make sure that you have access to those books before starting).
