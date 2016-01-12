@@ -10,7 +10,7 @@ some helpful tools/scripts for every day situations and also some math tools
   pairs.
 
 **polynom_calc**
-  Small polynomial calculator for p(x) in Z_2[X]_{p(x)}
+  Small polynomial calculator for Z_2[X]_{p(x)}
 
 **square_and_multiply.py**
   Standard square-and-multiply computation.
