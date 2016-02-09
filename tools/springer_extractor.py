@@ -36,20 +36,19 @@ def usage(message):
         print("---------------------------------------------------")
 
     print()
-    usage_str = "Usage: " + sys.argv[0]+ " <k> <n> <a_1,b_1> ... <a_k,b_k> "
+    usage_str = "Usage: " + sys.argv[0]+ " <springer-csv-file>"
     error(usage_str)
     print
-    print("-----------------------------------------------------------------")
-    print("k       - number of pairs")
-    print("n       - prime modulus (defines the field of the coefficients)")
-    print("a_i,b_i - pair of values which satisfies p(a_i) = b_i")
-    print("-----------------------------------------------------------------")
     exit(1)
 ##}}}
 
 ##{{{ main
 def main():
     
+    if len(sys.argv) != 2:
+        error_str = "To many/less arguments."
+        usage(error_str)
+
     # check if file is given
     if not os.path.exists(sys.argv[1]):
         error_str = "File does not exist."
