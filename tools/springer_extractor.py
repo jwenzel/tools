@@ -57,13 +57,12 @@ def main():
     filename = sys.argv[1]
 
     with open(filename, 'r') as f:
-        with open("updated.csv", 'w') as out:
-            f.next() # skip header line
-            for line in f:
-                updated_line = line.split(',', 9)[8].strip('"')
-                if "http://link.springer.com/book/" not in updated_line:
-                    continue
-                call(['./springer_download.py', '--autotitle', updated_line])
+        f.next() # skip header line
+        for line in f:
+            updated_line = line.split(',', 9)[8].strip('"')
+            if "http://link.springer.com/book/" not in updated_line:
+                continue
+            call(['./springer_download.py', '--autotitle', updated_line])
 
 ##}}}
 
