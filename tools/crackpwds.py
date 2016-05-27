@@ -213,12 +213,5 @@ def main():
 
 # }}}
 
-#    print(hashlib.sha1("prince").hexdigest())
-#    print(hashlib.sha1("cicero").hexdigest())
-#    print(hashlib.sha1("sirken").hexdigest())
-#    print(hashlib.sha1("lustig").hexdigest())
-#    print(hashlib.sha1("alanr").hexdigest())
-#    print(hashlib.sha1("dbowie").hexdigest())
-
 if __name__ == '__main__':
     main()

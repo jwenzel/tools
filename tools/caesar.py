@@ -1,32 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-""" caesar.py
-
-    Schreiben Sie ein Programm in Python, welches die Caesar-Chiffre
-    implementiert. Ihr Pro- gramm soll dabei folgende Eingaben als
-    Kommandozeilenparameter entgegennehmen:
-        • Eine Datei die den Klartext enthält und
-        • einen Schlüssel K.
-    Ein Klartext soll dabei nur aus Buchstaben bestehen. Ihr Programm soll
-    zunächst den Klar- text in Kleinbuchstaben umwandeln, bevor dieser
-    verschlüsselt wird. Anschließend soll Ihr Programm den verschlüsselten
-    Klartext (Chiffretext) in 5er-Buchstaben-Gruppen ausgeben (dies macht Sinn,
-    da man so nicht auf die Länge einzelner Wörter schließen kann).  Weitere
-    Hinweise:
-        • Ihr Programm soll folgende Problematiken sinnvoll behandeln:
-            – falsche Anzahl / falscher Typ von Parametern
-            – ungültige Zeichen im Klartext sollen ignoriert werden
-            (Sonderzeichen, Zahlen, . . . )
-        • Bonus (+1 Punkt): Entschlüsseln Sie die folgenden beiden Kryptogramme und geben
-    sie sowohl den Klartext als auch den dazugehörigen Schlüssel an.
-    1. Kryptogramm:
-        gwzhj ktzsi fxjhz wjbfd ytwjz xjfts jynrj ufi
-    2. Kryptogramm:
-        hspym cfnpd nsypt pcfdp dozfm wpcze estce ppypy
-        ncjae tzyes pntas pcepi etdez elwwj fymcp lvlmw p
-"""
-
 __author__  = 'Jakob Wenzel'
 __email__   = 'jakob.wenzel at uni-weimar dot de'
 __date__    = '2016-04-18'
