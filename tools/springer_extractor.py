@@ -62,7 +62,7 @@ def main():
             updated_line = line.split(',', 9)[8].strip('"')
             if "http://link.springer.com/book/" not in updated_line:
                 continue
-            call(['./springer_download.py', '--autotitle', updated_line])
+            call(['./springer-dl/springer_download.py', '--autotitle', updated_line])
 
 ##}}}
 
